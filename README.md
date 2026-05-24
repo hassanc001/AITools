@@ -37,4 +37,52 @@ The agent provides structured reports including:
 - **Location** - Files and line numbers affected
 - **Description** - What the pattern is
 - **Suggestion** - Optional refactoring recommendations
-- **Frequency** - How many times it appears 
+- **Frequency** - How many times it appears
+
+---
+
+### Class Diagram Maintainer
+
+A specialized agent that scans your Java codebase for all classes, interfaces, and their relationships, then automatically generates and maintains a Mermaid class diagram.
+
+#### How to Use
+
+1. **Update Diagram Manually**
+   - Open Copilot Chat
+   - Type `/` and select "Class Diagram Maintainer"
+   - Ask: "Update the class diagram" or "Generate a class diagram for my Java code"
+
+2. **Watch for Changes**
+   - Ask: "Watch for new classes and suggest diagram updates"
+   - Agent will monitor for changes and suggest updates
+
+#### What It Does
+
+- 🔍 **Scans Java Files** - Finds all classes, interfaces, and enums
+- 🔗 **Maps Relationships** - Identifies inheritance and implementation relationships
+- 📊 **Generates Diagram** - Creates a Mermaid class diagram
+- 📝 **Updates README** - Automatically inserts/updates the diagram section
+- ⏰ **Tracks Changes** - Can watch for new classes and suggest updates
+
+#### Example Queries
+
+- "Generate a class diagram for this Java project"
+- "Update the class diagram with new classes"
+- "Show me the architecture in a class diagram"
+- "Watch for new Java classes and update the diagram"
+- "Add a class diagram to README.md"
+
+#### Output
+
+Mermaid class diagram showing:
+- **Class Definitions** - Names and visibility
+- **Relationships** - Inheritance (extends), implementations (implements)
+- **Key Methods** - Important public methods
+- **Key Properties** - Important attributes
+- **Update Timestamp** - When the diagram was last updated
+
+---
+
+## Class Diagram
+
+_The class diagram will be automatically generated here by the Class Diagram Maintainer agent when you run it for the first time._ 
