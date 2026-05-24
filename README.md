@@ -85,4 +85,42 @@ Mermaid class diagram showing:
 
 ## Class Diagram
 
-_The class diagram will be automatically generated here by the Class Diagram Maintainer agent when you run it for the first time._ 
+_The class diagram will be automatically generated here by the Class Diagram Maintainer agent when you run it for the first time._
+
+---
+
+## Prompts
+
+### Job Seeker Tracker
+
+A comprehensive Spring Boot application template for job seekers to track their job application journey.
+
+**What's Included:**
+- 📋 Complete data model (JobApplication, Interview, Outcome entities)
+- 🔌 RESTful API endpoints for all operations
+- 📊 Statistics and analytics endpoints
+- 🏗️ Recommended project structure
+- ✅ Setup instructions
+- 🧪 Testing strategy
+- 🚀 Future enhancement ideas
+
+**Features Covered:**
+- Track job positions applied for
+- Schedule and manage interviews
+- Record interview prep notes and impressions
+- Log interview outcomes (accepted, rejected, pending)
+- Filter and search applications
+- View application statistics and success rates
+
+**Technology Stack:**
+- Spring Boot 3.x
+- Java 17+
+- PostgreSQL/MySQL
+- RESTful API
+- Spring Data JPA
+
+**How to Use:**
+1. Open Copilot Chat
+2. Type `/job-seeker-tracker` or search for "Job Seeker Tracker"
+3. Select the prompt and ask for help scaffolding the project
+4. Use it as a reference for building your Spring Boot application 
